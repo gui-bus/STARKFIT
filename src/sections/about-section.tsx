@@ -1,6 +1,5 @@
 "use client";
-import { Card, CardContent } from "@/components/ui/card";
-import { Chip } from "@nextui-org/react";
+import { CardBody, Chip, Card } from "@nextui-org/react";
 import { DumbbellIcon, TrainTrackIcon } from "lucide-react";
 import { GrYoga } from "react-icons/gr";
 import { GiLockers } from "react-icons/gi";
@@ -90,8 +89,8 @@ const AboutSection = () => {
   }, [api]);
 
   return (
-    <section className="w-full text-white bg-[url('/AboutBG.svg')] bg-cover bg-center bg-no-repeat 3xl:rounded-2xl">
-      <div className="flex flex-col items-center justify-center text-center p-5 lg:p-10 gap-5">
+    <section className="w-full 3xl:rounded-2xl">
+      <div className="flex flex-col items-center justify-center text-center p-5  gap-5 w-full max-w-7xl mx-auto">
         <div className="space-y-4">
           <Chip
             className="uppercase text-white"
@@ -105,7 +104,7 @@ const AboutSection = () => {
             <h2 className="text-3xl/relaxed font-bold tracking-tighter sm:text-5xl uppercase">
               Sua Jornada Fitness Começa Aqui
             </h2>
-            <p className="md:text-xl/relaxed lg:text-base/relaxed bg-[#1A1A1A] bg-opacity-40 p-5 rounded-2xl border-white/20 border">
+            <p className="md:text-xl/relaxed lg:text-base/relaxed font-light">
               Na nossa academia, acreditamos que você vai além dos limites. Não
               somos apenas um espaço de exercícios, somos uma comunidade que
               inspira e motiva. Aqui, sua jornada fitness é única, com desafios
@@ -125,9 +124,9 @@ const AboutSection = () => {
         >
           <CarouselContent className="cursor-grab active:cursor-grabbing">
             {cardsData.map((card, index) => (
-              <CarouselItem key={index} className="lg:basis-1/2">
+              <CarouselItem key={index} className="lg:basis-1/2 p-5">
                 <Card className="hover:scale-[1.01] transition-all duration-200 ease-in-out select-none">
-                  <CardContent className="p-4 md:p-6">
+                  <CardBody className="p-4 md:p-6">
                     <div className="flex items-center justify-center gap-5">
                       <span>{card.icon}</span>
                       <h3 className="text-md font-bold tracking-tight md:text-base">
@@ -137,7 +136,7 @@ const AboutSection = () => {
                     <p className="text-sm text-gray-500 md:text-base lg:text-sm/relaxed lg:line-clamp-2 mt-3">
                       {card.description}
                     </p>
-                  </CardContent>
+                  </CardBody>
                 </Card>
               </CarouselItem>
             ))}
