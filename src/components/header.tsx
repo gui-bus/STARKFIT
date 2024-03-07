@@ -5,7 +5,6 @@ import {
   NavbarItem,
   Link,
   Button,
-  Image,
 } from "@nextui-org/react";
 import { FaWhatsapp } from "react-icons/fa6";
 
@@ -30,7 +29,7 @@ const Header = () => {
       <NavbarBrand>
         <p className="font-black text-2xl select-none cursor-default text-[#1A1A1A]">SPARK<span className="text-warning">FIT</span></p>
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-2" justify="center">
+      <NavbarContent className="hidden md:flex gap-2" justify="center">
         {Links.map((link) => (
           <NavbarItem key={link.href}>
             <Button variant="light" href={link.href} className="text-sm">
@@ -43,7 +42,7 @@ const Header = () => {
         <NavbarItem>
           <Button
             as={Link}
-            color="primary"
+            color="warning"
             href="#"
             variant="shadow"
             className="text-white"
