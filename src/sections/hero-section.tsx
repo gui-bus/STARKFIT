@@ -1,46 +1,60 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@nextui-org/react";
+import Image from "next/image";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa6";
 import { SiVitest } from "react-icons/si";
 
 const HeroSection = () => {
   return (
-    <section className="w-full py-10">
-      <div className="px-0 space-y-6 maxContainer">
-        <div className="grid gap-4 md:px-10 lg:grid-cols-2 text-center px-5">
-          <h1 className="lg:leading-tighter text-4xl font-black tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] uppercase">
-            Energize o seu estilo de vida
-          </h1>
+    <section>
+      <div className="flex flex-col xl:flex-row items-center justify-between gap-5 maxContainer">
+        <Image
+          alt="Hero"
+          className="mx-auto overflow-hidden 3xl:rounded-b-2xl xl:rounded-br-2xl object-cover w-full xl:w-1/2 h-auto drop-shadow-xl"
+          height={0}
+          src="/HeroBanner.svg"
+          width={0}
+          sizes="100vw"
+        />
 
-          <div className="flex flex-col items-center justify-center space-y-6">
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              Na SparkFit, estamos aqui para impulsionar o seu estilo de vida,
-              oferecendo mais do que apenas um lugar para treinar.
+        <div className="flex flex-col items-center justify-center md:px-10 text-center px-5 gap-10 xl:w-1/2">
+          <div className="flex flex-col items-center justify-center gap-5">
+            <h1 className="lg:leading-tighter font-black tracking-tighter text-4xl lg:text-6xl uppercase flex-1">
+            Energize o seu estilo de vida
+            </h1>
+            <p className="mx-auto font-light flex-1">
+              Na SparkFit, não somos apenas uma academia, somos o combustível
+              para o seu bem-estar. Estamos aqui para impulsionar seu estilo de
+              vida, oferecendo mais do que apenas um lugar para treinar.
             </p>
           </div>
-        </div>
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-3 md:gap-5 w-full px-5 mx-auto">
-          <Button
-            asChild
-            variant={"outline"}
-            size={"lg"}
-            className="h-14 w-full"
-          >
-            <Link href="#">
-              Agendar aula experimental <SiVitest size={20} className="ml-2" />
-            </Link>
-          </Button>
 
-          <Button
-            asChild
-            variant={"shadow"}
-            size={"lg"}
-            className="h-14 w-full"
-          >
-            <Link href="#">
-              Ver planos de assinatura <FaStar size={20} className="ml-2" />
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-5 w-full">
+            <Link href="#" className="w-full">
+              <Button
+                variant={"bordered"}
+                size={"lg"}
+                className="h-14 w-full uppercase"
+                endContent={<SiVitest size={20} />}
+                radius="sm"
+              >
+                Experimente uma Aula
+              </Button>
             </Link>
-          </Button>
+
+            <Link href="#" className="w-full">
+              <Button
+                variant={"shadow"}
+                color="warning"
+                size={"lg"}
+                className="h-14 w-full uppercase text-white"
+                endContent={<FaStar size={20} />}
+                radius="sm"
+              >
+                Conheça Nossos Planos
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
