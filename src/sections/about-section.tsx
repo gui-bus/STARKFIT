@@ -90,7 +90,7 @@ const AboutSection = () => {
 
   return (
     <section className="w-full 3xl:rounded-2xl">
-      <div className="flex flex-col items-center justify-center text-center p-5  gap-5 w-full max-w-7xl mx-auto">
+      <div className="flex flex-col items-center justify-center text-center p-5 gap-5 w-full max-w-7xl mx-auto">
         <div className="space-y-4">
           <Chip
             className="uppercase text-white"
@@ -101,9 +101,10 @@ const AboutSection = () => {
           </Chip>
 
           <div className="space-y-6">
-            <h2 className="text-3xl/relaxed font-bold tracking-tighter sm:text-5xl uppercase">
+            <h2 className="text-5xl font-black tracking-tighter uppercase">
               Sua Jornada Fitness Começa Aqui
             </h2>
+
             <p className="md:text-xl/relaxed lg:text-base/relaxed font-light">
               Na nossa academia, acreditamos que você vai além dos limites. Não
               somos apenas um espaço de exercícios, somos uma comunidade que
@@ -115,7 +116,7 @@ const AboutSection = () => {
         </div>
 
         <Carousel
-          className=" w-full text-center"
+          className="w-full text-center ml-4 md:ml-0"
           setApi={setApi}
           opts={{
             loop: true,
