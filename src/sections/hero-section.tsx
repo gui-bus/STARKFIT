@@ -1,11 +1,15 @@
 import { Button } from "@nextui-org/react";
+import Image from "next/image";
 import Link from "next/link";
 import { FaStar } from "react-icons/fa6";
 import { SiVitest } from "react-icons/si";
 
 const HeroSection = () => {
   return (
-    <section className="bg-[url('/HeroBanner.svg')] bg-cover bg-center bg-no-repeat py-10 lg:py-20 3xl:rounded-b-2xl">
+    <section className="bg-[url('/HeroBanner.svg')] bg-cover bg-center bg-no-repeat py-10 lg:py-20 3xl:rounded-b-2xl relative">
+      <div className="absolute top-8 left-8 hidden xl:block">
+        <Image src="/24h.svg" alt="24H" width={0} height={0} sizes="100vw" className="w-20 h-auto"/>
+      </div>
       <div className="flex flex-col items-center justify-center gap-5 text-white w-full max-w-5xl mx-auto text-center p-5">
         <h1 className="lg:leading-tighter font-black text-5xl lg:text-8xl uppercase flex-1 tracking-tighter">
           Energize o seu estilo de vida
