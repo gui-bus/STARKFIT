@@ -27,7 +27,7 @@ const Header = () => {
   return (
     <Navbar position="sticky" isBlurred={false} isBordered className="drop-shadow-md">
       <NavbarBrand>
-        <p className="font-black text-2xl select-none cursor-default text-[#1A1A1A]">SPARK<span className="text-warning">FIT</span></p>
+        <p className="font-black text-2xl select-none cursor-default text-[#1A1A1A]">STARK<span className="text-warning">FIT</span></p>
       </NavbarBrand>
       <NavbarContent className="hidden md:flex gap-2" justify="center">
         {Links.map((link) => (

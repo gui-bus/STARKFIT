@@ -3,14 +3,15 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import UIProvider from "../../providers/UIProvider";
+import Footer from "@/components/footer";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SparkFit | Transforme seu estilo de vida!",
-  description: "Sua jornada para uma vida saudável começa na SparkFit. Descubra treinos personalizados, equipamentos modernos e uma comunidade vibrante.",
+  title: "STARKFIT | Transforme seu estilo de vida!",
+  description:
+    "Sua jornada para uma vida saudável começa na STARKFIT. Descubra treinos personalizados, equipamentos modernos e uma comunidade vibrante.",
 };
-
 
 export default function RootLayout({
   children,
@@ -23,6 +24,7 @@ export default function RootLayout({
         <UIProvider>
           <Header />
           <main className="flex-1">{children}</main>
+          <Footer />
         </UIProvider>
       </body>
     </html>

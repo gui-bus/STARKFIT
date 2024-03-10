@@ -11,7 +11,7 @@ import { CheckIcon } from "lucide-react";
 import { SiVitest } from "react-icons/si";
 
 const basicMembership = {
-  title: "SPARK BASIC",
+  title: "STARK BASIC",
   description: "Ideal para começar com o pé direito.",
   items: [
     "Acesso ilimitado a todas as áreas de treino.",
@@ -26,11 +26,11 @@ const basicMembership = {
 };
 
 const proMembership = {
-  title: "SPARK PRO",
+  title: "STARK PRO",
   description:
     "Para os verdadeiramente comprometidos com a transformação física.",
   items: [
-    "Todos os benefícios do plano SPARK BASIC.",
+    "Todos os benefícios do plano STARK BASIC.",
     "Treinos personalizados com nossos especialistas.",
     "Acesso prioritário a novos equipamentos e instalações.",
     "Descontos exclusivos em serviços de nutrição.",

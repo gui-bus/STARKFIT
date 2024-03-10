@@ -25,7 +25,7 @@ const LocationSection = () => {
               Visite-nos
             </Chip>
             <h3 className="font-black text-6xl select-none cursor-default text-white">
-              SPARK<span className="text-warning">FIT</span>
+              STARK<span className="text-warning">FIT</span>
             </h3>
           </div>
           <div className="grid gap-5 sm:grid-cols-2">
