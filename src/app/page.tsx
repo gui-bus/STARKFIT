@@ -1,9 +1,9 @@
 import AboutSection from "@/sections/about-section";
 import BenefitsSection from "@/sections/benefits-section";
-import ContactSection from "@/sections/contact-section";
 import FreeTraining from "@/sections/free-training";
 import HeroSection from "@/sections/hero-section";
 import MembershipSection from "@/sections/membership-section";
+import SuplementsSection from "@/sections/suplements-section";
 import { Divider } from "@nextui-org/react";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
 
       <BenefitsSection />
 
-      <Divider className="my-10 w-full max-w-[90%] mx-auto"/>
+      <Divider className="my-10 w-full max-w-[90%] mx-auto" />
 
       <AboutSection />
 
@@ -21,7 +21,9 @@ export default function Home() {
 
       <MembershipSection />
 
-      <ContactSection />
+      <Divider className="w-full max-w-[90%] mx-auto" />
+
+      <SuplementsSection />
     </main>
   );
 }
