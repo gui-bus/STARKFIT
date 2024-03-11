@@ -12,21 +12,29 @@ export default function Home() {
     <main>
       <HeroSection />
 
-      <BenefitsSection />
+      <div id="Benefits">
+        <BenefitsSection />
+      </div>
 
       <Divider className="my-10 w-full max-w-[90%] mx-auto" />
 
-      <AboutSection />
+      <div id="About">
+        <AboutSection />
+      </div>
 
       <FreeTraining />
 
-      <MembershipSection />
+      <div id="Membership">
+        <MembershipSection />
+      </div>
 
       <Divider className="mb-10 w-full max-w-[90%] mx-auto" />
 
-      <SuplementsSection />
+      <div id="Supplements">
+        <SuplementsSection />
+      </div>
 
-      <LocationSection/>
+      <LocationSection />
     </main>
   );
 }

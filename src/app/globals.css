@@ -54,3 +54,7 @@
     @apply w-full 3xl:max-w-7xl mx-auto;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
