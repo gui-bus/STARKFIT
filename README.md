@@ -7,7 +7,7 @@
 
 <br>
 
-***A [STARKFIT](https://starkfit.vercel.app/) é uma landing page desenvolvida com React, Typescript, Next.js, ShadCN/UI, Tailwind CSS e Vercel.*** Sua jornada para uma vida saudável começa na STARKFIT. Descubra treinos personalizados, equipamentos modernos e uma comunidade vibrante.
+***A [STARKFIT](https://starkfit.vercel.app/) é uma landing page desenvolvida com React, Typescript, Next.js, ShadCN/UI, NextUI, Tailwind CSS e Vercel.*** Sua jornada para uma vida saudável começa na STARKFIT. Descubra treinos personalizados, equipamentos modernos e uma comunidade vibrante.
 
 ## Como acessar a página :gear:
 
