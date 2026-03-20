@@ -7,7 +7,7 @@
 
 <br>
 
-***A [STARKFIT](https://starkfit.vercel.app/) é uma landing page desenvolvida com React, Typescript, Next.js, ShadCN/UI, NextUI, Tailwind CSS e Vercel.*** Sua jornada para uma vida saudável começa na STARKFIT. Descubra treinos personalizados, equipamentos modernos e uma comunidade vibrante.
+***A [STARKFIT](https://starkfit.vercel.app/) é uma landing page desenvolvida com React, Typescript, Next.js, ShadCN/UI, HeroUI, Tailwind CSS e Vercel.*** Sua jornada para uma vida saudável começa na STARKFIT. Descubra treinos personalizados, equipamentos modernos e uma comunidade vibrante.
 
 ## Como acessar a página :gear:
 
@@ -21,7 +21,7 @@
 	<img alt="NextJS" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/NextJS.svg">
 	<img alt="Tailwind" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/TailwindCSS.svg">
 	<img alt="ShadCNUI" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/ShadCNUI.svg">
-  <img alt="NextUI" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/NextUI.svg">
+  <img alt="HeroUI" height="80" width="80" src="https://raw.githubusercontent.com/heroui-inc/heroui/main/apps/docs/public/favicon.ico">
 	<img alt="Vercel" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Vercel.svg">
 </div>
 

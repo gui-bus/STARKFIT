@@ -1,3 +1,4 @@
+"use client";
 import AboutSection from "@/sections/about-section";
 import BenefitsSection from "@/sections/benefits-section";
 import FreeTraining from "@/sections/free-training";
@@ -5,7 +6,7 @@ import HeroSection from "@/sections/hero-section";
 import LocationSection from "@/sections/location-section";
 import MembershipSection from "@/sections/membership-section";
 import SuplementsSection from "@/sections/suplements-section";
-import { Divider } from "@nextui-org/react";
+import { Divider } from "@heroui/react";
 
 export default function Home() {
   return (

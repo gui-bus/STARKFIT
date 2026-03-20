@@ -20,10 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${montserrat.className} maxContainer`}>
+      <body className={`${montserrat.className} w-full max-w-440 mx-auto bg-black px-4 md:px-10`}>
         <UIProvider>
           <Header />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 w-full max-w-440 mx-auto">{children}</main>
           <Footer />
         </UIProvider>
       </body>
