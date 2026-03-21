@@ -1,4 +1,8 @@
 {
+  "Metadata": {
+    "title": "STARKFIT | Transform your lifestyle!",
+    "description": "Your journey to a healthy life starts at STARKFIT. Discover personalized training, modern equipment, and a vibrant community."
+  },
   "Header": {
     "about": "The Academy",
     "benefits": "Facilities",
@@ -8,6 +12,8 @@
     "register": "REGISTER NOW"
   },
   "Hero": {
+    "brand": "STARKFIT",
+    "hours24": "24H",
     "tag": "Elite Performance Club",
     "title": "FORCE",
     "subtitle": "UNLEASHED.",
@@ -74,6 +80,7 @@
     "cta": "SELECT PROTOCOL",
     "plans": {
       "foundation": {
+        "name": "FOUNDATION",
         "description": "For those starting to build their physical legacy.",
         "features": [
           "Unlimited 24h Access",
@@ -83,6 +90,7 @@
         ]
       },
       "standard": {
+        "name": "STANDARD",
         "description": "The perfect balance between technology and elite monitoring.",
         "features": [
           "Everything in Foundation",
@@ -93,6 +101,7 @@
         ]
       },
       "summit": {
+        "name": "SUMMIT",
         "description": "The maximum level. For those who demand exclusivity and absolute performance.",
         "features": [
           "Everything in Standard",
@@ -108,40 +117,51 @@
     "tag": "StarkFit Curations",
     "title1": "BIO",
     "title2": "FUEL.",
+    "description": "High-density biological actives developed for the human limit.",
     "exclusive": "Exclusive protocols",
     "membersOnly": "For members only",
     "pickupOnly": "Base Pickup Only",
+    "lab": "Performance Lab",
+    "item": "Item",
+    "category": "Category",
+    "type": "Type",
     "note": "Consult our specialists for individualized protocols",
     "items": {
       "protein": {
         "name": "ISOLATED PROTEIN",
         "category": "Lean Mass",
-        "type": "Post-Workout"
+        "type": "Post-Workout",
+        "benefit": "Accelerated muscle building and rapid absorption."
       },
       "creatine": {
         "name": "PURE CREATINE",
         "category": "Raw Strength",
-        "type": "Systemic"
+        "type": "Systemic",
+        "benefit": "Explosive strength increase and cellular volume."
       },
       "preWorkout": {
         "name": "INSANE PRE-WORKOUT",
         "category": "Maximum Energy",
-        "type": "Activator"
+        "type": "Activator",
+        "benefit": "Extreme focus and vasodilation for intense training."
       },
       "bcaa": {
         "name": "BCAA AMINO ACIDS",
         "category": "Recovery",
-        "type": "Cellular"
+        "type": "Cellular",
+        "benefit": "Fatigue reduction and muscle tissue preservation."
       },
       "omega3": {
         "name": "ELITE OMEGA-3",
         "category": "Vital Health",
-        "type": "Essential"
+        "type": "Essential",
+        "benefit": "Cardiovascular health and joint recovery."
       },
       "multivitamin": {
         "name": "MULTIVITAMIN",
         "category": "Optimization",
-        "type": "Metabolic"
+        "type": "Metabolic",
+        "benefit": "Immune support and total hormonal balance."
       }
     }
   },
@@ -155,11 +175,15 @@
     "locations": {
       "sp": {
         "city": "SÃO PAULO",
-        "neighborhood": "ITAIM BIBI"
+        "neighborhood": "ITAIM BIBI",
+        "address": "Rua Amauri, 300",
+        "tag": "Flagship"
       },
       "rj": {
         "city": "RIO DE JANEIRO",
-        "neighborhood": "BARRA DA TIJUCA"
+        "neighborhood": "BARRA DA TIJUCA",
+        "address": "Av. das Américas, 5000",
+        "tag": "Base Delta"
       }
     }
   },
@@ -197,7 +221,9 @@
       "bases": {
         "title": "Strategic Bases",
         "alpha": "Headquarters Alpha / SP",
-        "delta": "Headquarters Delta / RJ"
+        "alpha_address": "Rua Amauri, 300 \n Itaim Bibi, São Paulo",
+        "delta": "Headquarters Delta / RJ",
+        "delta_address": "Av. das Américas, 5000 \n Barra, Rio de Janeiro"
       }
     },
     "legal": {

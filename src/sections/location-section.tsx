@@ -11,16 +11,16 @@ const LocationSection = () => {
     {
       city: t("locations.sp.city"),
       neighborhood: t("locations.sp.neighborhood"),
-      address: "Rua Amauri, 300",
+      address: t("locations.sp.address"),
       phone: "+55 (11) 3333-3333",
-      tag: "Flagship",
+      tag: t("locations.sp.tag"),
     },
     {
       city: t("locations.rj.city"),
       neighborhood: t("locations.rj.neighborhood"),
-      address: "Av. das Américas, 5000",
+      address: t("locations.rj.address"),
       phone: "+55 (21) 4444-4444",
-      tag: "Base Delta",
+      tag: t("locations.rj.tag"),
     },
   ];
 

@@ -154,8 +154,8 @@ export default function Footer() {
                       size={16}
                       className="text-primary mt-1"
                     />
-                    <p className="text-xs font-medium uppercase leading-relaxed">
-                      Rua Amauri, 300 <br /> Itaim Bibi, São Paulo
+                    <p className="text-xs font-medium uppercase leading-relaxed whitespace-pre-line">
+                      {t("sections.bases.alpha_address")}
                     </p>
                   </div>
                 </div>
@@ -169,8 +169,8 @@ export default function Footer() {
                       size={16}
                       className="text-primary mt-1"
                     />
-                    <p className="text-xs font-medium uppercase leading-relaxed">
-                      Av. das Américas, 5000 <br /> Barra, Rio de Janeiro
+                    <p className="text-xs font-medium uppercase leading-relaxed whitespace-pre-line">
+                      {t("sections.bases.delta_address")}
                     </p>
                   </div>
                 </div>

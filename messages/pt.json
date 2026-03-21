@@ -1,4 +1,8 @@
 {
+  "Metadata": {
+    "title": "STARKFIT | Transforme seu estilo de vida!",
+    "description": "Sua jornada para uma vida saudável começa na STARKFIT. Descubra treinos personalizados, equipamentos modernos e uma comunidade vibrante."
+  },
   "Header": {
     "about": "A Academia",
     "benefits": "Estrutura",
@@ -8,6 +12,8 @@
     "register": "MATRICULE-SE"
   },
   "Hero": {
+    "brand": "STARKFIT",
+    "hours24": "24H",
     "tag": "Elite Performance Club",
     "title": "FORCE",
     "subtitle": "UNLEASHED.",
@@ -35,7 +41,7 @@
         "description": "Equipe preparada para levar seu corpo e mente ao limite absoluto."
       },
       {
-        "title": "FOCO EM RESULTADO",
+        "title": "TREINO EM RESULTADO",
         "tag": "Mindset",
         "description": "Metodologia comprovada para quem busca performance sem desculpas."
       },
@@ -53,7 +59,7 @@
     "title2": "BIOLOGIA.",
     "description": "A StarkFit é um laboratório de evolução. Nossos membros não buscam apenas estética, buscam o ápice do potencial humano através de esforço bruto.",
     "legacy": "O Legado é a Força",
-    "discipline": "DISCIPLINE",
+    "discipline": "DISCIPLINA",
     "stats": {
       "members": "Membros Elite",
       "units": "Unidades",
@@ -74,6 +80,7 @@
     "cta": "SELECIONAR PROTOCOLO",
     "plans": {
       "foundation": {
+        "name": "FOUNDATION",
         "description": "Para quem está iniciando a construção do seu legado físico.",
         "features": [
           "Acesso Ilimitado 24h",
@@ -83,6 +90,7 @@
         ]
       },
       "standard": {
+        "name": "STANDARD",
         "description": "O equilíbrio perfeito entre tecnologia e acompanhamento de elite.",
         "features": [
           "Tudo do Foundation",
@@ -93,6 +101,7 @@
         ]
       },
       "summit": {
+        "name": "SUMMIT",
         "description": "O nível máximo. Para quem exige exclusividade e performance absoluta.",
         "features": [
           "Tudo do Standard",
@@ -105,43 +114,54 @@
     }
   },
   "Supplements": {
-    "tag": "StarkFit Curations",
+    "tag": "Curadoria StarkFit",
     "title1": "BIO",
     "title2": "FUEL.",
+    "description": "Ativos biológicos de alta densidade desenvolvidos para o limite humano.",
     "exclusive": "Protocolos exclusivos",
     "membersOnly": "Somente para membros",
     "pickupOnly": "Base Pickup Only",
+    "lab": "Performance Lab",
+    "item": "Item",
+    "category": "Categoria",
+    "type": "Tipo",
     "note": "Consulte nossos especialistas para protocolos individualizados",
     "items": {
       "protein": {
         "name": "PROTEÍNA ISOLADA",
         "category": "Massa Magra",
-        "type": "Pós-Treino"
+        "type": "Pós-Treino",
+        "benefit": "Construção muscular acelerada e absorção rápida."
       },
       "creatine": {
         "name": "CREATINA PURA",
         "category": "Força Bruta",
-        "type": "Sistêmico"
+        "type": "Sistêmico",
+        "benefit": "Aumento de força explosiva e volume celular."
       },
       "preWorkout": {
         "name": "PRÉ-TREINO INSANE",
         "category": "Energia Máxima",
-        "type": "Ativador"
+        "type": "Ativador",
+        "benefit": "Foco extremo e vasodilatação para treinos intensos."
       },
       "bcaa": {
         "name": "AMINOÁCIDOS BCAA",
         "category": "Recuperação",
-        "type": "Celular"
+        "type": "Celular",
+        "benefit": "Redução da fadiga e preservação de tecido muscular."
       },
       "omega3": {
         "name": "OMEGA-3 ELITE",
         "category": "Saúde Vital",
-        "type": "Essencial"
+        "type": "Essencial",
+        "benefit": "Saúde cardiovascular e recuperação articular."
       },
       "multivitamin": {
         "name": "MULTIVITAMÍNICO",
         "category": "Otimização",
-        "type": "Metabólico"
+        "type": "Metabólico",
+        "benefit": "Suporte imunológico e equilíbrio hormonal total."
       }
     }
   },
@@ -156,11 +176,13 @@
       "sp": {
         "city": "SÃO PAULO",
         "neighborhood": "ITAIM BIBI",
+        "address": "Rua Amauri, 300",
         "tag": "Flagship"
       },
       "rj": {
         "city": "RIO DE JANEIRO",
         "neighborhood": "BARRA DA TIJUCA",
+        "address": "Av. das Américas, 5000",
         "tag": "Base Delta"
       }
     }
@@ -199,7 +221,9 @@
       "bases": {
         "title": "Strategic Bases",
         "alpha": "Alpha Base / SP",
-        "delta": "Delta Base / RJ"
+        "alpha_address": "Rua Amauri, 300 \n Itaim Bibi, São Paulo",
+        "delta": "Delta Base / RJ",
+        "delta_address": "Av. das Américas, 5000 \n Barra, Rio de Janeiro"
       }
     },
     "legal": {

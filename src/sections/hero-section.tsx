@@ -36,7 +36,7 @@ const HeroSection = () => {
           transition={{ duration: 2 }}
           className="text-[35vw] font-black text-white leading-none whitespace-nowrap tracking-tighter"
         >
-          STARKFIT
+          {t("brand")}
         </motion.h2>
       </div>
 
@@ -91,7 +91,7 @@ const HeroSection = () => {
       <div className="absolute right-16 bottom-32 hidden 2xl:block space-y-12">
          <div className="flex items-center gap-8 text-right group">
             <div className="space-y-1 text-right">
-               <p className="text-4xl font-black text-white leading-none tracking-tighter group-hover:text-primary transition-colors uppercase">24H</p>
+               <p className="text-4xl font-black text-white leading-none tracking-tighter group-hover:text-primary transition-colors uppercase">{t("hours24")}</p>
                <p className="text-[10px] font-black text-white/30 uppercase tracking-widest">{t("available")}</p>
             </div>
             <div className="w-16 h-16 bg-white/5 rounded-2xl border border-white/10 flex items-center justify-center group-hover:border-primary/50 transition-all">

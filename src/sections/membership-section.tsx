@@ -15,7 +15,7 @@ const MembershipSection = () => {
   const memberships = [
     {
       level: "01",
-      name: "FOUNDATION",
+      name: t("plans.foundation.name"),
       price: "190",
       description: t("plans.foundation.description"),
       features: [
@@ -27,7 +27,7 @@ const MembershipSection = () => {
     },
     {
       level: "02",
-      name: "STANDARD",
+      name: t("plans.standard.name"),
       price: "350",
       description: t("plans.standard.description"),
       features: [
@@ -41,7 +41,7 @@ const MembershipSection = () => {
     },
     {
       level: "03",
-      name: "SUMMIT",
+      name: t("plans.summit.name"),
       price: "800",
       description: t("plans.summit.description"),
       features: [
@@ -143,7 +143,7 @@ const MembershipSection = () => {
                     className={`flex items-baseline gap-2 ${plan.popular ? "text-black" : "text-white"}`}
                   >
                     <span className="text-sm font-black opacity-40 uppercase tracking-widest">
-                      R$
+                      {t("currency")}
                     </span>
                     <span className="text-8xl font-black tracking-tighter">
                       {plan.price}
