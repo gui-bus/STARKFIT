@@ -9,11 +9,12 @@ import {
   LightningIcon,
   CaretUpIcon,
   MapPinIcon,
-  PhoneIcon,
   GlobeIcon,
 } from "@phosphor-icons/react";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
   const currentYear = new Date().getFullYear();
 
   const scrollToTop = () => {
@@ -45,9 +46,9 @@ export default function Footer() {
               </Link>
             </div>
             <p className="text-4xl md:text-7xl font-black uppercase text-white leading-[0.85] tracking-tighter italic">
-              CONSTRUINDO <br />{" "}
+              {t("brand")} <br />{" "}
               <span className="text-white/20 group-hover:text-primary transition-colors duration-700">
-                O SEU LEGADO.
+                {t("legacy")}
               </span>
             </p>
           </div>
@@ -80,7 +81,7 @@ export default function Footer() {
               className="group flex items-center gap-6 text-white/20 hover:text-primary transition-colors duration-500"
             >
               <span className="text-[11px] font-black uppercase tracking-[0.6em] italic">
-                Back to top
+                {t("backToTop")}
               </span>
               <div className="w-14 h-14 rounded-full border border-white/10 flex items-center justify-center group-hover:border-primary group-hover:bg-primary/5 transition-all">
                 <CaretUpIcon weight="bold" size={24} />
@@ -93,14 +94,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-8 py-24 border-y border-white/5">
           <div className="space-y-10 text-left">
             <h4 className="text-primary text-[10px] font-black uppercase tracking-[0.5em] italic">
-              The Club
+              {t("sections.club.title")}
             </h4>
             <ul className="flex flex-col gap-5">
               {[
-                "A Academia",
-                "Nossa Estrutura",
-                "Treinadores Elite",
-                "Galeria",
+                t("sections.club.links.0"),
+                t("sections.club.links.1"),
+                t("sections.club.links.2"),
+                t("sections.club.links.3"),
               ].map((link) => (
                 <li key={link}>
                   <Link
@@ -116,14 +117,14 @@ export default function Footer() {
 
           <div className="space-y-10 text-left">
             <h4 className="text-primary text-[10px] font-black uppercase tracking-[0.5em] italic">
-              Join Us
+              {t("sections.join.title")}
             </h4>
             <ul className="flex flex-col gap-5">
               {[
-                "Planos de Acesso",
-                "Treino Experimental",
-                "Corporativo",
-                "Portal do Aluno",
+                t("sections.join.links.0"),
+                t("sections.join.links.1"),
+                t("sections.join.links.2"),
+                t("sections.join.links.3"),
               ].map((link) => (
                 <li key={link}>
                   <Link
@@ -140,12 +141,12 @@ export default function Footer() {
           <div className="lg:col-span-2 flex flex-col md:items-end justify-between">
             <div className="space-y-10 text-left md:text-right w-full">
               <h4 className="text-primary text-[10px] font-black uppercase tracking-[0.5em] italic">
-                Strategic Bases
+                {t("sections.bases.title")}
               </h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 lg:gap-20">
                 <div className="space-y-3">
                   <p className="text-white font-black text-xl uppercase tracking-tighter italic">
-                    Alpha Base / SP
+                    {t("sections.bases.alpha")}
                   </p>
                   <div className="flex items-start md:justify-end gap-3 text-white/30 italic">
                     <MapPinIcon
@@ -160,7 +161,7 @@ export default function Footer() {
                 </div>
                 <div className="space-y-3">
                   <p className="text-white font-black text-xl uppercase tracking-tighter italic">
-                    Delta Base / RJ
+                    {t("sections.bases.delta")}
                   </p>
                   <div className="flex items-start md:justify-end gap-3 text-white/30 italic">
                     <MapPinIcon
@@ -183,10 +184,10 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-16">
             <div className="space-y-1 text-left md:text-left">
               <p className="text-[9px] font-black text-white/10 tracking-[0.5em] uppercase italic">
-                System Copyright
+                {t("legal.copyright")}
               </p>
               <p className="text-xs font-black text-white/20 uppercase italic">
-                © {currentYear} STARKFIT CLUB. All Rights Reserved.
+                © {currentYear} STARKFIT CLUB. {t("legal.rights")}
               </p>
             </div>
             <div className="flex gap-10">
@@ -194,13 +195,13 @@ export default function Footer() {
                 href="#"
                 className="text-[10px] font-black text-white/10 hover:text-white transition-colors uppercase tracking-widest italic"
               >
-                Privacy Policy
+                {t("legal.privacy")}
               </Link>
               <Link
                 href="#"
                 className="text-[10px] font-black text-white/10 hover:text-white transition-colors uppercase tracking-widest italic"
               >
-                Terms of Service
+                {t("legal.terms")}
               </Link>
             </div>
           </div>
@@ -211,7 +212,7 @@ export default function Footer() {
               className="text-primary w-4 h-4 animate-spin-slow"
             />
             <p className="text-[10px] font-black text-primary tracking-[0.4em] uppercase italic">
-              Global Elite Network Active
+              {t("status")}
             </p>
           </div>
         </div>

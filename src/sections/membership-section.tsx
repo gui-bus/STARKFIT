@@ -7,52 +7,53 @@ import {
   CrownIcon,
   ArrowUpRightIcon,
 } from "@phosphor-icons/react";
-
-const memberships = [
-  {
-    level: "01",
-    name: "FOUNDATION",
-    price: "190",
-    description: "Para quem está iniciando a construção do seu legado físico.",
-    features: [
-      "Acesso Ilimitado 24h",
-      "Avaliação Mensal",
-      "Área de Musculação",
-      "Vestiários Premium",
-    ],
-  },
-  {
-    level: "02",
-    name: "STANDARD",
-    price: "350",
-    description:
-      "O equilíbrio perfeito entre tecnologia e acompanhamento de elite.",
-    features: [
-      "Tudo do Foundation",
-      "Aulas Coletivas",
-      "Sauna & Spa",
-      "Plano Nutricional",
-      "Suporte Premium",
-    ],
-    popular: true,
-  },
-  {
-    level: "03",
-    name: "SUMMIT",
-    price: "800",
-    description:
-      "O nível máximo. Para quem exige exclusividade e performance absoluta.",
-    features: [
-      "Tudo do Standard",
-      "Personal Trainer Exclusivo",
-      "Fisioterapia In-Club",
-      "Acesso Global",
-      "Suplementação Mensal",
-    ],
-  },
-];
+import { useTranslations } from "next-intl";
 
 const MembershipSection = () => {
+  const t = useTranslations("Membership");
+
+  const memberships = [
+    {
+      level: "01",
+      name: "FOUNDATION",
+      price: "190",
+      description: t("plans.foundation.description"),
+      features: [
+        t("plans.foundation.features.0"),
+        t("plans.foundation.features.1"),
+        t("plans.foundation.features.2"),
+        t("plans.foundation.features.3"),
+      ],
+    },
+    {
+      level: "02",
+      name: "STANDARD",
+      price: "350",
+      description: t("plans.standard.description"),
+      features: [
+        t("plans.standard.features.0"),
+        t("plans.standard.features.1"),
+        t("plans.standard.features.2"),
+        t("plans.standard.features.3"),
+        t("plans.standard.features.4"),
+      ],
+      popular: true,
+    },
+    {
+      level: "03",
+      name: "SUMMIT",
+      price: "800",
+      description: t("plans.summit.description"),
+      features: [
+        t("plans.summit.features.0"),
+        t("plans.summit.features.1"),
+        t("plans.summit.features.2"),
+        t("plans.summit.features.3"),
+        t("plans.summit.features.4"),
+      ],
+    },
+  ];
+
   return (
     <section id="Membership" className="py-48  relative overflow-hidden">
       {/* Background Mark Refined */}
@@ -72,18 +73,17 @@ const MembershipSection = () => {
           >
             <div className="flex items-center gap-5 text-primary">
               <span className="text-[11px] font-black uppercase tracking-[0.5em]">
-                Membership Selection
+                {t("tag")}
               </span>
               <div className="h-px w-24 bg-primary/30" />
             </div>
             <h2 className="text-7xl md:text-[11rem] font-black uppercase text-white tracking-tighter leading-[0.8]">
-              DOMINE SEU <br />{" "}
-              <span className="text-white/5 italic">NÍVEL.</span>
+              {t("title1")} <br />{" "}
+              <span className="text-white/5 italic">{t("title2")}</span>
             </h2>
           </motion.div>
           <p className="max-w-xs text-white/40 text-sm font-bold uppercase italic leading-relaxed text-right border-r-2 border-primary/20 pr-6">
-            Protocolos de acesso desenhados para cada estágio da sua evolução
-            suprema.
+            {t("description")}
           </p>
         </div>
 
@@ -101,7 +101,7 @@ const MembershipSection = () => {
             >
               {plan.popular && (
                 <div className="absolute top-10 right-10  text-white font-black text-[9px] px-5 py-2 tracking-widest rounded-full shadow-2xl uppercase">
-                  Best Value
+                  {t("bestValue")}
                 </div>
               )}
 
@@ -149,7 +149,7 @@ const MembershipSection = () => {
                       {plan.price}
                     </span>
                     <span className="text-sm font-black opacity-40 uppercase tracking-widest">
-                      /mês
+                      {t("month")}
                     </span>
                   </div>
                   <p
@@ -182,7 +182,7 @@ const MembershipSection = () => {
                     ${plan.popular ? " text-white hover:bg-neutral-900" : "bg-white text-black hover:bg-primary hover:text-white"}
                   `}
                 >
-                  SELECIONAR PROTOCOLO{" "}
+                  {t("cta")}{" "}
                   <ArrowUpRightIcon weight="bold" className="ml-2 w-4 h-4" />
                 </Button>
               </div>

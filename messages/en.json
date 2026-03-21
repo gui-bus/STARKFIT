@@ -1,0 +1,211 @@
+{
+  "Header": {
+    "about": "The Academy",
+    "benefits": "Facilities",
+    "membership": "Plans",
+    "supplements": "Supplements",
+    "portal": "Portal",
+    "register": "REGISTER NOW"
+  },
+  "Hero": {
+    "tag": "Elite Performance Club",
+    "title": "FORCE",
+    "subtitle": "UNLEASHED.",
+    "description": "The ultimate gym for those who seek perfection. Premium environment, cutting-edge technology and elite infrastructure.",
+    "cta": "I WANT TO TRAIN NOW",
+    "gallery": "View Gallery",
+    "available": "Available",
+    "machines": "Machines"
+  },
+  "Benefits": {
+    "tag": "The Performance Standard",
+    "title1": "OUR",
+    "title2": "DNA.",
+    "dna": "DNA",
+    "elite": "ELITE",
+    "items": [
+      {
+        "title": "ADVANCED BIOMETRICS",
+        "tag": "Science",
+        "description": "Complete performance and composition analysis to optimize your results."
+      },
+      {
+        "title": "ELITE TRAINERS",
+        "tag": "Expertise",
+        "description": "Team prepared to push your body and mind to the absolute limit."
+      },
+      {
+        "title": "RESULT FOCUSED",
+        "tag": "Mindset",
+        "description": "Proven methodology for those who seek performance without excuses."
+      },
+      {
+        "title": "24H TECHNOLOGY",
+        "tag": "Infra",
+        "description": "The latest in global equipment at your disposal."
+      }
+    ],
+    "cta": "EXPLORE DETAILS"
+  },
+  "About": {
+    "tag": "Stark Global Culture",
+    "title1": "BEYOND",
+    "title2": "BIOLOGY.",
+    "description": "StarkFit is an evolution laboratory. Our members don't just seek aesthetics, they seek the pinnacle of human potential through raw effort.",
+    "legacy": "Legacy is Strength",
+    "discipline": "DISCIPLINE",
+    "stats": {
+      "members": "Elite Members",
+      "units": "Units",
+      "performance": "Performance",
+      "results": "Results",
+      "resultsValue": "Focused"
+    },
+    "cta": "Learn more about us"
+  },
+  "Membership": {
+    "tag": "Membership Selection",
+    "title1": "MASTER YOUR",
+    "title2": "LEVEL.",
+    "description": "Access protocols designed for each stage of your supreme evolution.",
+    "bestValue": "Best Value",
+    "month": "/month",
+    "currency": "R$",
+    "cta": "SELECT PROTOCOL",
+    "plans": {
+      "foundation": {
+        "description": "For those starting to build their physical legacy.",
+        "features": [
+          "Unlimited 24h Access",
+          "Monthly Evaluation",
+          "Bodybuilding Area",
+          "Premium Locker Rooms"
+        ]
+      },
+      "standard": {
+        "description": "The perfect balance between technology and elite monitoring.",
+        "features": [
+          "Everything in Foundation",
+          "Group Classes",
+          "Sauna & Spa",
+          "Nutritional Plan",
+          "Premium Support"
+        ]
+      },
+      "summit": {
+        "description": "The maximum level. For those who demand exclusivity and absolute performance.",
+        "features": [
+          "Everything in Standard",
+          "Exclusive Personal Trainer",
+          "In-Club Physiotherapy",
+          "Global Access",
+          "Monthly Supplementation"
+        ]
+      }
+    }
+  },
+  "Supplements": {
+    "tag": "StarkFit Curations",
+    "title1": "BIO",
+    "title2": "FUEL.",
+    "exclusive": "Exclusive protocols",
+    "membersOnly": "For members only",
+    "pickupOnly": "Base Pickup Only",
+    "note": "Consult our specialists for individualized protocols",
+    "items": {
+      "protein": {
+        "name": "ISOLATED PROTEIN",
+        "category": "Lean Mass",
+        "type": "Post-Workout"
+      },
+      "creatine": {
+        "name": "PURE CREATINE",
+        "category": "Raw Strength",
+        "type": "Systemic"
+      },
+      "preWorkout": {
+        "name": "INSANE PRE-WORKOUT",
+        "category": "Maximum Energy",
+        "type": "Activator"
+      },
+      "bcaa": {
+        "name": "BCAA AMINO ACIDS",
+        "category": "Recovery",
+        "type": "Cellular"
+      },
+      "omega3": {
+        "name": "ELITE OMEGA-3",
+        "category": "Vital Health",
+        "type": "Essential"
+      },
+      "multivitamin": {
+        "name": "MULTIVITAMIN",
+        "category": "Optimization",
+        "type": "Metabolic"
+      }
+    }
+  },
+  "Location": {
+    "tag": "Global Expansion",
+    "title1": "WHERE THE",
+    "title2": "ELITE TRAIN.",
+    "description": "Strategic locations in the most prestigious neighborhoods, with the ultimate infrastructure.",
+    "premiumConnection": "Premium Connection",
+    "syncing": "Syncing Location...",
+    "locations": {
+      "sp": {
+        "city": "SÃO PAULO",
+        "neighborhood": "ITAIM BIBI"
+      },
+      "rj": {
+        "city": "RIO DE JANEIRO",
+        "neighborhood": "BARRA DA TIJUCA"
+      }
+    }
+  },
+  "FreeTraining": {
+    "tag": "Elite Invitation",
+    "title1": "MASTER",
+    "title2": "GREATNESS.",
+    "description": "Experience 7 days of total immersion in the StarkFit standard. No costs, just the weight.",
+    "cta": "REDEEM ACCESS",
+    "win": "WIN"
+  },
+  "Footer": {
+    "brand": "BUILDING",
+    "legacy": "YOUR LEGACY.",
+    "backToTop": "Back to top",
+    "sections": {
+      "club": {
+        "title": "The Club",
+        "links": [
+          "The Academy",
+          "Our Facilities",
+          "Elite Trainers",
+          "Gallery"
+        ]
+      },
+      "join": {
+        "title": "Join Us",
+        "links": [
+          "Access Plans",
+          "Trial Training",
+          "Corporate",
+          "Member Portal"
+        ]
+      },
+      "bases": {
+        "title": "Strategic Bases",
+        "alpha": "Headquarters Alpha / SP",
+        "delta": "Headquarters Delta / RJ"
+      }
+    },
+    "legal": {
+      "copyright": "System Copyright",
+      "rights": "All Rights Reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "status": "Global Elite Network Active"
+  }
+}

@@ -7,32 +7,24 @@ import LocationSection from "@/sections/location-section";
 import MembershipSection from "@/sections/membership-section";
 import SuplementsSection from "@/sections/suplements-section";
 
-export default function Home() {
+export default function Page() {
   return (
     <main>
       <HeroSection />
 
-      <div id="Benefits">
-        <BenefitsSection />
-      </div>
+      <BenefitsSection />
 
-      <div className="my-10 w-full max-w-[90%] mx-auto h-px bg-white/10" />
+      <div className="my-10 w-full max-w-[1440px] mx-auto h-px bg-white/10" />
 
-      <div id="About">
-        <AboutSection />
-      </div>
+      <AboutSection />
 
       <FreeTraining />
 
-      <div id="Membership">
-        <MembershipSection />
-      </div>
+      <MembershipSection />
 
-      <div className="mb-10 w-full max-w-[90%] mx-auto h-px bg-white/10" />
+      <div className="mb-10 w-full max-w-[1440px] mx-auto h-px bg-white/10" />
 
-      <div id="Supplements">
-        <SuplementsSection />
-      </div>
+      <SuplementsSection />
 
       <LocationSection />
     </main>

@@ -1,26 +1,29 @@
 "use client";
 import { motion } from "framer-motion";
-import { MapPin, Phone, ArrowRight, Star, Globe } from "lucide-react";
+import { MapPin, ArrowRight, Star, Globe } from "lucide-react";
 import Image from "next/image";
-
-const locations = [
-  {
-    city: "SÃO PAULO",
-    neighborhood: "ITAIM BIBI",
-    address: "Rua Amauri, 300",
-    phone: "+55 (11) 3333-3333",
-    tag: "Flagship",
-  },
-  {
-    city: "RIO DE JANEIRO",
-    neighborhood: "BARRA DA TIJUCA",
-    address: "Av. das Américas, 5000",
-    phone: "+55 (21) 4444-4444",
-    tag: "Base Delta",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const LocationSection = () => {
+  const t = useTranslations("Location");
+
+  const locations = [
+    {
+      city: t("locations.sp.city"),
+      neighborhood: t("locations.sp.neighborhood"),
+      address: "Rua Amauri, 300",
+      phone: "+55 (11) 3333-3333",
+      tag: "Flagship",
+    },
+    {
+      city: t("locations.rj.city"),
+      neighborhood: t("locations.rj.neighborhood"),
+      address: "Av. das Américas, 5000",
+      phone: "+55 (21) 4444-4444",
+      tag: "Base Delta",
+    },
+  ];
+
   return (
     <section className="py-40  relative border-t border-white/5 overflow-hidden">
       {/* Cinematic Background Map Overlay */}
@@ -41,16 +44,15 @@ const LocationSection = () => {
               <div className="flex items-center gap-4 text-primary">
                 <Globe size={20} className="animate-spin-slow" />
                 <span className="text-xs font-black uppercase tracking-[0.5em]">
-                  Expansão Global
+                  {t("tag")}
                 </span>
               </div>
               <h2 className="text-7xl md:text-[9rem] font-black uppercase text-white leading-[0.85] tracking-tighter">
-                ONDE A <br />{" "}
-                <span className="text-primary italic">ELITE TREINA.</span>
+                {t("title1")} <br />{" "}
+                <span className="text-primary italic">{t("title2")}</span>
               </h2>
               <p className="text-white/40 text-xl md:text-2xl font-medium leading-relaxed max-w-lg uppercase italic">
-                Localizações estratégicas nos bairros mais prestigiados, com a
-                infraestrutura definitiva.
+                {t("description")}
               </p>
             </div>
 
@@ -110,10 +112,10 @@ const LocationSection = () => {
               </div>
               <div className="absolute bottom-16 left-12 right-12 text-center space-y-2">
                 <p className="text-primary font-black tracking-[0.5em] text-[10px] uppercase">
-                  Conexão Premium
+                  {t("premiumConnection")}
                 </p>
                 <p className="text-white text-2xl font-black uppercase italic tracking-tighter">
-                  Sincronizando Localização...
+                  {t("syncing")}
                 </p>
               </div>
             </div>

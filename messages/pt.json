@@ -1,0 +1,213 @@
+{
+  "Header": {
+    "about": "A Academia",
+    "benefits": "Estrutura",
+    "membership": "Planos",
+    "supplements": "Suplementos",
+    "portal": "Portal",
+    "register": "MATRICULE-SE"
+  },
+  "Hero": {
+    "tag": "Elite Performance Club",
+    "title": "FORCE",
+    "subtitle": "UNLEASHED.",
+    "description": "A academia definitiva para quem busca a perfeição. Ambiente premium, tecnologia de ponta e infraestrutura de elite.",
+    "cta": "QUERO TREINAR AGORA",
+    "gallery": "Ver Galeria",
+    "available": "Disponível",
+    "machines": "Maquinas"
+  },
+  "Benefits": {
+    "tag": "O Padrão de Performance",
+    "title1": "NOSSO",
+    "title2": "ADN.",
+    "dna": "DNA",
+    "elite": "ELITE",
+    "items": [
+      {
+        "title": "BIOMETRIA AVANÇADA",
+        "tag": "Ciência",
+        "description": "Análise completa de performance e composição para otimizar seus resultados."
+      },
+      {
+        "title": "TREINADORES ELITE",
+        "tag": "Expertise",
+        "description": "Equipe preparada para levar seu corpo e mente ao limite absoluto."
+      },
+      {
+        "title": "FOCO EM RESULTADO",
+        "tag": "Mindset",
+        "description": "Metodologia comprovada para quem busca performance sem desculpas."
+      },
+      {
+        "title": "TECNOLOGIA 24H",
+        "tag": "Infra",
+        "description": "O que há de mais moderno em equipamentos mundiais à sua disposição."
+      }
+    ],
+    "cta": "EXPLORAR DETALHES"
+  },
+  "About": {
+    "tag": "Cultura Global Stark",
+    "title1": "ALÉM DA",
+    "title2": "BIOLOGIA.",
+    "description": "A StarkFit é um laboratório de evolução. Nossos membros não buscam apenas estética, buscam o ápice do potencial humano através de esforço bruto.",
+    "legacy": "O Legado é a Força",
+    "discipline": "DISCIPLINE",
+    "stats": {
+      "members": "Membros Elite",
+      "units": "Unidades",
+      "performance": "Performance",
+      "results": "Resultados",
+      "resultsValue": "Focado"
+    },
+    "cta": "Saiba mais sobre nós"
+  },
+  "Membership": {
+    "tag": "Membership Selection",
+    "title1": "DOMINE SEU",
+    "title2": "NÍVEL.",
+    "description": "Protocolos de acesso desenhados para cada estágio da sua evolução suprema.",
+    "bestValue": "Melhor Valor",
+    "month": "/mês",
+    "currency": "R$",
+    "cta": "SELECIONAR PROTOCOLO",
+    "plans": {
+      "foundation": {
+        "description": "Para quem está iniciando a construção do seu legado físico.",
+        "features": [
+          "Acesso Ilimitado 24h",
+          "Avaliação Mensal",
+          "Área de Musculação",
+          "Vestiários Premium"
+        ]
+      },
+      "standard": {
+        "description": "O equilíbrio perfeito entre tecnologia e acompanhamento de elite.",
+        "features": [
+          "Tudo do Foundation",
+          "Aulas Coletivas",
+          "Sauna & Spa",
+          "Plano Nutricional",
+          "Suporte Premium"
+        ]
+      },
+      "summit": {
+        "description": "O nível máximo. Para quem exige exclusividade e performance absoluta.",
+        "features": [
+          "Tudo do Standard",
+          "Personal Trainer Exclusivo",
+          "Fisioterapia In-Club",
+          "Acesso Global",
+          "Suplementação Mensal"
+        ]
+      }
+    }
+  },
+  "Supplements": {
+    "tag": "StarkFit Curations",
+    "title1": "BIO",
+    "title2": "FUEL.",
+    "exclusive": "Protocolos exclusivos",
+    "membersOnly": "Somente para membros",
+    "pickupOnly": "Base Pickup Only",
+    "note": "Consulte nossos especialistas para protocolos individualizados",
+    "items": {
+      "protein": {
+        "name": "PROTEÍNA ISOLADA",
+        "category": "Massa Magra",
+        "type": "Pós-Treino"
+      },
+      "creatine": {
+        "name": "CREATINA PURA",
+        "category": "Força Bruta",
+        "type": "Sistêmico"
+      },
+      "preWorkout": {
+        "name": "PRÉ-TREINO INSANE",
+        "category": "Energia Máxima",
+        "type": "Ativador"
+      },
+      "bcaa": {
+        "name": "AMINOÁCIDOS BCAA",
+        "category": "Recuperação",
+        "type": "Celular"
+      },
+      "omega3": {
+        "name": "OMEGA-3 ELITE",
+        "category": "Saúde Vital",
+        "type": "Essencial"
+      },
+      "multivitamin": {
+        "name": "MULTIVITAMÍNICO",
+        "category": "Otimização",
+        "type": "Metabólico"
+      }
+    }
+  },
+  "Location": {
+    "tag": "Expansão Global",
+    "title1": "ONDE A",
+    "title2": "ELITE TREINA.",
+    "description": "Localizações estratégicas nos bairros mais prestigiados, com a infraestrutura definitiva.",
+    "premiumConnection": "Conexão Premium",
+    "syncing": "Sincronizando Localização...",
+    "locations": {
+      "sp": {
+        "city": "SÃO PAULO",
+        "neighborhood": "ITAIM BIBI",
+        "tag": "Flagship"
+      },
+      "rj": {
+        "city": "RIO DE JANEIRO",
+        "neighborhood": "BARRA DA TIJUCA",
+        "tag": "Base Delta"
+      }
+    }
+  },
+  "FreeTraining": {
+    "tag": "Convite de Elite",
+    "title1": "DOMINE A",
+    "title2": "GRANDEZA.",
+    "description": "Experimente 7 dias de imersão total no padrão StarkFit. Sem custos, apenas o peso.",
+    "cta": "RESGATAR ACESSO",
+    "win": "WIN"
+  },
+  "Footer": {
+    "brand": "CONSTRUINDO",
+    "legacy": "O SEU LEGADO.",
+    "backToTop": "Voltar ao topo",
+    "sections": {
+      "club": {
+        "title": "The Club",
+        "links": [
+          "A Academia",
+          "Nossa Estrutura",
+          "Treinadores Elite",
+          "Galeria"
+        ]
+      },
+      "join": {
+        "title": "Join Us",
+        "links": [
+          "Planos de Acesso",
+          "Treino Experimental",
+          "Corporativo",
+          "Portal do Aluno"
+        ]
+      },
+      "bases": {
+        "title": "Strategic Bases",
+        "alpha": "Alpha Base / SP",
+        "delta": "Delta Base / RJ"
+      }
+    },
+    "legal": {
+      "copyright": "System Copyright",
+      "rights": "Todos os Direitos Reservados.",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço"
+    },
+    "status": "Global Elite Network Active"
+  }
+}

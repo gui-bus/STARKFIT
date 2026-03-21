@@ -8,52 +8,51 @@ import {
   ArrowRightIcon,
 } from "@phosphor-icons/react";
 import Image from "next/image";
-
-const benefits = [
-  {
-    icon: <ActivityIcon weight="bold" className="w-7 h-7 text-primary" />,
-    title: "BIOMETRIA AVANÇADA",
-    tag: "Ciência",
-    description:
-      "Análise completa de performance e composição para otimizar seus resultados.",
-    img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    icon: <TrophyIcon weight="bold" className="w-7 h-7 text-primary" />,
-    title: "TREINADORES ELITE",
-    tag: "Expertise",
-    description:
-      "Equipe preparada para levar seu corpo e mente ao limite absoluto.",
-    img: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    icon: <TargetIcon weight="bold" className="w-7 h-7 text-primary" />,
-    title: "FOCO EM RESULTADO",
-    tag: "Mindset",
-    description:
-      "Metodologia comprovada para quem busca performance sem desculpas.",
-    img: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2070&auto=format&fit=crop",
-  },
-  {
-    icon: <ShieldCheckIcon weight="bold" className="w-7 h-7 text-primary" />,
-    title: "TECNOLOGIA 24H",
-    tag: "Infra",
-    description:
-      "O que há de mais moderno em equipamentos mundiais à sua disposição.",
-    img: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070&auto=format&fit=crop",
-  },
-];
+import { useTranslations } from "next-intl";
 
 const BenefitsSection = () => {
+  const t = useTranslations("Benefits");
+
+  const benefits = [
+    {
+      icon: <ActivityIcon weight="bold" className="w-7 h-7 text-primary" />,
+      title: t("items.0.title"),
+      tag: t("items.0.tag"),
+      description: t("items.0.description"),
+      img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+      icon: <TrophyIcon weight="bold" className="w-7 h-7 text-primary" />,
+      title: t("items.1.title"),
+      tag: t("items.1.tag"),
+      description: t("items.1.description"),
+      img: "https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+      icon: <TargetIcon weight="bold" className="w-7 h-7 text-primary" />,
+      title: t("items.2.title"),
+      tag: t("items.2.tag"),
+      description: t("items.2.description"),
+      img: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+      icon: <ShieldCheckIcon weight="bold" className="w-7 h-7 text-primary" />,
+      title: t("items.3.title"),
+      tag: t("items.3.tag"),
+      description: t("items.3.description"),
+      img: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=2070&auto=format&fit=crop",
+    },
+  ];
+
   return (
     <section id="Benefits" className="py-48  relative overflow-hidden">
       {/* Background Decors Refined */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-[0.015] select-none">
         <p className="text-[35vw] font-black leading-none absolute -top-40 -left-40">
-          DNA
+          {t("dna")}
         </p>
         <p className="text-[35vw] font-black leading-none absolute -bottom-40 -right-40 text-primary">
-          ELITE
+          {t("elite")}
         </p>
       </div>
 
@@ -67,7 +66,7 @@ const BenefitsSection = () => {
           >
             <span className="h-px w-16 bg-primary/20" />
             <p className="text-primary font-black tracking-[0.6em] uppercase text-[10px]">
-              O Padrão de Performance
+              {t("tag")}
             </p>
             <span className="h-px w-16 bg-primary/20" />
           </motion.div>
@@ -77,7 +76,7 @@ const BenefitsSection = () => {
             viewport={{ once: true }}
             className="text-7xl md:text-[11rem] font-black uppercase text-white tracking-tighter leading-[0.75]"
           >
-            NOSSO <br /> <span className="text-white/5 italic">ADN.</span>
+            {t("title1")} <br /> <span className="text-white/5 italic">{t("title2")}</span>
           </motion.h2>
         </div>
 
@@ -120,7 +119,7 @@ const BenefitsSection = () => {
 
                 <div className="pt-8">
                   <button className="flex items-center gap-5 text-[11px] font-black uppercase tracking-[0.5em] text-primary group-hover:gap-10 transition-all duration-700 outline-none">
-                    EXPLORAR DETALHES <ArrowRightIcon weight="bold" size={20} />
+                    {t("cta")} <ArrowRightIcon weight="bold" size={20} />
                   </button>
                 </div>
               </div>
