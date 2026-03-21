@@ -25,7 +25,7 @@ export default function Footer() {
     <footer className=" pt-60 pb-16 relative overflow-hidden border-t border-white/5">
       {/* IMMENSE BACKGROUND TEXT */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none z-0 overflow-hidden">
-        <p className="text-[40vw] font-black leading-none uppercase tracking-tighter text-white/[0.01] whitespace-nowrap">
+        <p className="text-[20rem] md:text-[35rem] font-black leading-none uppercase tracking-tighter text-white/[0.01] whitespace-nowrap">
           STARKFIT
         </p>
       </div>

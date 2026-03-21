@@ -14,7 +14,7 @@ const HeroSection = () => {
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
   return (
-    <section ref={containerRef} className="relative h-[110vh] w-full flex items-center justify-center overflow-hidden bg-background">
+    <section ref={containerRef} className="relative h-[800px] w-full flex items-center justify-center overflow-hidden bg-background">
       
       {/* Cinematic Background */}
       <motion.div style={{ y: y1 }} className="absolute inset-0 z-0">
@@ -34,7 +34,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 1.2 }}
           animate={{ opacity: 0.03, scale: 1 }}
           transition={{ duration: 2 }}
-          className="text-[35vw] font-black text-white leading-none whitespace-nowrap tracking-tighter"
+          className="text-[20rem] md:text-[30rem] font-black text-white leading-none whitespace-nowrap tracking-tighter"
         >
           {t("brand")}
         </motion.h2>

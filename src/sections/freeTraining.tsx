@@ -14,7 +14,7 @@ const FreeTraining = () => {
         <div className="bg-primary rounded-[4.5rem] p-12 lg:p-28 relative overflow-hidden flex flex-col lg:flex-row items-center gap-20 shadow-[0_50px_100px_rgba(234,255,0,0.2)]">
           {/* Large background decorative text refined */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10 pointer-events-none select-none">
-            <p className="text-[30vw] font-black uppercase leading-none text-background tracking-tighter">
+            <p className="text-[15rem] md:text-[25rem] font-black uppercase leading-none text-background tracking-tighter">
               {t("win")}
             </p>
           </div>

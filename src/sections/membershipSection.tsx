@@ -58,7 +58,7 @@ const MembershipSection = () => {
     <section id="Membership" className="py-48  relative overflow-hidden">
       {/* Background Mark Refined */}
       <div className="absolute top-1/2 left-0 w-full text-center pointer-events-none opacity-[0.01] select-none -translate-y-1/2">
-        <p className="text-[45vw] font-black leading-none uppercase tracking-tighter">
+        <p className="text-[20rem] md:text-[40rem] font-black leading-none uppercase tracking-tighter">
           ELITE
         </p>
       </div>

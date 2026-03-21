@@ -48,10 +48,10 @@ const BenefitsSection = () => {
     <section id="Benefits" className="py-48  relative overflow-hidden">
       {/* Background Decors Refined */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-[0.015] select-none">
-        <p className="text-[35vw] font-black leading-none absolute -top-40 -left-40">
+        <p className="text-[20rem] md:text-[30rem] font-black leading-none absolute -top-40 -left-40">
           {t("dna")}
         </p>
-        <p className="text-[35vw] font-black leading-none absolute -bottom-40 -right-40 text-primary">
+        <p className="text-[20rem] md:text-[30rem] font-black leading-none absolute -bottom-40 -right-40 text-primary">
           {t("elite")}
         </p>
       </div>
