@@ -6,7 +6,6 @@ import HeroSection from "@/sections/hero-section";
 import LocationSection from "@/sections/location-section";
 import MembershipSection from "@/sections/membership-section";
 import SuplementsSection from "@/sections/suplements-section";
-import { Divider } from "@heroui/react";
 
 export default function Home() {
   return (
@@ -17,7 +16,7 @@ export default function Home() {
         <BenefitsSection />
       </div>
 
-      <Divider className="my-10 w-full max-w-[90%] mx-auto" />
+      <div className="my-10 w-full max-w-[90%] mx-auto h-px bg-white/10" />
 
       <div id="About">
         <AboutSection />
@@ -29,7 +28,7 @@ export default function Home() {
         <MembershipSection />
       </div>
 
-      <Divider className="mb-10 w-full max-w-[90%] mx-auto" />
+      <div className="mb-10 w-full max-w-[90%] mx-auto h-px bg-white/10" />
 
       <div id="Supplements">
         <SuplementsSection />

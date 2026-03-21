@@ -2,45 +2,49 @@
 @config "../../tailwind.config.ts";
 
 @theme {
-  --background: 0 0% 0%;
-  --foreground: 0 0% 100%;
+  --background: 240 5% 10%; /* Cinza muito escuro e sofisticado #1a1a1a */
+  --foreground: 0 0% 98%;
   
-  --card: 0 0% 3%;
-  --card-foreground: 0 0% 100%;
+  --card: 240 5% 12%; /* Cinza levemente mais claro para os cards */
+  --card-foreground: 0 0% 98%;
   
-  --primary: 0 100% 50%; /* Pure Red #FF0000 */
-  --primary-foreground: 0 0% 100%;
+  --primary: 84 60% 55%; /* Verde Lima Suave (estilo Sage/Lime soft) */
+  --primary-foreground: 240 5% 5%;
   
-  --secondary: 0 0% 10%;
+  --secondary: 240 5% 15%;
   --secondary-foreground: 0 0% 100%;
   
-  --muted: 0 0% 15%;
-  --muted-foreground: 0 0% 60%;
+  --muted: 240 5% 20%;
+  --muted-foreground: 240 5% 65%;
   
-  --accent: 0 100% 50%;
-  --accent-foreground: 0 0% 100%;
+  --accent: 84 60% 55%;
+  --accent-foreground: 240 5% 5%;
   
-  --border: 0 0% 10%;
-  --input: 0 0% 10%;
-  --ring: 0 100% 50%;
+  --border: 240 5% 18%;
+  --input: 240 5% 18%;
+  --ring: 84 60% 55%;
   
-  --radius: 2rem; /* Bordas muito arredondadas e modernas */
+  --radius: 2rem;
 }
 
 body {
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #1a1a1a; /* Cinza antracite */
+  color: #f8f8f8;
   font-family: var(--font-montserrat), sans-serif;
   overflow-x: hidden;
 }
 
+@utility maxContainer {
+  @apply w-full max-w-6xl mx-auto px-8;
+}
+
 .text-shadow-glow {
-  text-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+  text-shadow: 0 0 30px rgba(144, 212, 94, 0.2); /* Glow mais suave seguindo o novo verde */
 }
 
 .bg-blur {
   backdrop-filter: blur(20px);
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .image-mask {

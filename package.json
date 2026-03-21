@@ -10,8 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroui/react": "^2.8.10",
-    "@heroui/theme": "^2.4.26",
     "@phosphor-icons/react": "^2.1.10",
     "@radix-ui/react-separator": "^1.1.8",
     "@radix-ui/react-slot": "^1.2.4",
