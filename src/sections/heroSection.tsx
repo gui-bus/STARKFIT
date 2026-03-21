@@ -53,7 +53,7 @@ const HeroSection = () => {
               <span className="text-sm font-black tracking-[0.4em] text-primary uppercase italic">{t("tag")}</span>
             </div>
             
-            <h1 className="text-7xl md:text-[11rem] font-black leading-[0.8] tracking-tighter text-white uppercase text-left">
+            <h1 className="text-6xl md:text-[11rem] font-black leading-[0.8] tracking-tighter text-white uppercase text-left">
               {t("title")} <br />
               <span className="text-primary drop-shadow-[0_0_40px_rgba(156,209,90,0.3)]">{t("subtitle")}</span>
             </h1>

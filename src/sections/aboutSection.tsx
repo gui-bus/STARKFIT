@@ -16,7 +16,7 @@ const AboutSection = () => {
 
   return (
     <section id="About" className="py-48 bg-background overflow-hidden relative">
-      <div className="w-full max-w-[1440px] mx-auto px-8 md:px-16 lg:px-24 relative z-10">
+      <div className="w-full max-w-[1440px] mx-auto px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-32 items-center">
           
           <motion.div 
@@ -65,7 +65,7 @@ const AboutSection = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {stats.map((stat, i) => (
                 <div key={i} className="bg-white/5 p-10 rounded-[3rem] border border-white/5 hover:border-primary/30 transition-all duration-500 group shadow-2xl">
                   <div className="flex items-center gap-5 mb-5">

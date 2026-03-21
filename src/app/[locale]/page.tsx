@@ -14,15 +14,11 @@ export default function Page() {
 
       <BenefitsSection />
 
-      <div className="my-10 w-full max-w-[1440px] mx-auto h-px bg-white/10" />
-
       <AboutSection />
 
       <FreeTraining />
 
       <MembershipSection />
-
-      <div className="mb-10 w-full max-w-[1440px] mx-auto h-px bg-white/10" />
 
       <SupplementsSection />
 

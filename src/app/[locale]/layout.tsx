@@ -44,7 +44,7 @@ export default async function RootLayout(props: {
 
   return (
     <html lang={locale}>
-      <body className={`${montserrat.className} w-full max-w-440 mx-auto bg-background px-4 md:px-10`}>
+      <body className={`${montserrat.className} w-full max-w-440 mx-auto bg-background`}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           <Header />
           <main className="flex-1 w-full max-w-440 mx-auto">{props.children}</main>

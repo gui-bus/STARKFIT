@@ -76,7 +76,7 @@ const SupplementsSection = () => {
                  <LightningIcon weight="fill" size={20} />
                  <p className="text-sm font-black uppercase tracking-[0.5em]">{t("lab")}</p>
               </div>
-              <h3 className="text-6xl md:text-8xl font-black text-white uppercase leading-[0.85] tracking-tighter">
+              <h3 className="text-4xl md:text-8xl font-black text-white uppercase leading-[0.85] tracking-tighter">
                 {item.txt}
               </h3>
               <p className="text-white/40 text-xl font-bold max-w-lg leading-relaxed uppercase italic">

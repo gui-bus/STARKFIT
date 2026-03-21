@@ -2,7 +2,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Link, useRouter, usePathname } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
-import { LightningIcon, ListIcon, UserIcon, CaretDownIcon } from "@phosphor-icons/react";
+import { LightningIcon, ListIcon, X as XIcon, UserIcon, CaretDownIcon } from "@phosphor-icons/react";
 import { useTranslations, useLocale } from "next-intl";
 import ReactCountryFlag from "react-country-flag";
 import { useState } from "react";
@@ -14,6 +14,7 @@ const Header = () => {
   const router = useRouter();
   const pathname = usePathname();
   const [isLangOpen, setIsLangOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const Links = [
     { txt: t("about"), href: "/#About" as const },
@@ -33,7 +34,7 @@ const Header = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="max-w-7xl mx-auto bg-background/60 backdrop-blur-3xl rounded-[2.5rem] border border-white/10 px-6 md:px-10 py-4 flex items-center justify-between shadow-[0_20px_50px_rgba(0,0,0,0.3)]"
+        className="max-w-7xl mx-auto bg-background/60 backdrop-blur-3xl rounded-[2.5rem] border border-white/10 px-6 md:px-10 py-4 flex items-center justify-between shadow-[0_20px_50px_rgba(0,0,0,0.3)] relative z-50"
       >
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-11 h-11 rounded-2xl bg-primary flex items-center justify-center shadow-[0_0_25px_rgba(156,209,90,0.4)] group-hover:scale-110 transition-transform duration-300">
@@ -107,16 +108,59 @@ const Header = () => {
           
           <Button
             asChild
-            className="bg-white text-black font-black text-xs tracking-widest rounded-full px-8 h-12 hover:bg-primary hover:text-white transition-all uppercase shadow-lg active:scale-95 border-none"
+            className="bg-white hidden md:flex text-black font-black text-xs tracking-widest rounded-full px-8 h-12 hover:bg-primary hover:text-white transition-all uppercase shadow-lg active:scale-95 border-none"
           >
             <Link href="#Membership">{t("register")}</Link>
           </Button>
           
-          <button className="lg:hidden text-white hover:text-primary transition-colors p-2">
-            <ListIcon weight="bold" size={32} />
+          <button 
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="lg:hidden text-white hover:text-primary transition-colors p-2"
+          >
+            {isMenuOpen ? <XIcon weight="bold" size={32} /> : <ListIcon weight="bold" size={32} />}
           </button>
         </div>
       </motion.div>
+
+      {/* Mobile Menu */}
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="lg:hidden absolute top-[calc(100%-1rem)] left-4 right-4 bg-background/95 backdrop-blur-3xl rounded-[2.5rem] border border-white/10 p-8 shadow-2xl z-40 overflow-hidden"
+          >
+            <nav className="flex flex-col gap-6">
+              {Links.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-xl font-black tracking-[0.2em] text-white/60 hover:text-primary transition-all uppercase"
+                >
+                  {link.txt}
+                </Link>
+              ))}
+              <div className="h-px bg-white/10 my-2" />
+              <button 
+                onClick={() => setIsMenuOpen(false)}
+                className="flex items-center gap-4 text-white/60 hover:text-primary transition-all uppercase"
+              >
+                 <UserIcon weight="bold" size={24} />
+                 <span className="text-sm font-black tracking-widest">{t("portal")}</span>
+              </button>
+              <Button
+                asChild
+                onClick={() => setIsMenuOpen(false)}
+                className="bg-primary text-white font-black text-sm tracking-widest rounded-full w-full h-14 hover:bg-lime-600 transition-all uppercase border-none"
+              >
+                <Link href="#Membership">{t("register")}</Link>
+              </Button>
+            </nav>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 };
