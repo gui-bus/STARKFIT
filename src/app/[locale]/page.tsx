@@ -1,11 +1,11 @@
 "use client";
-import AboutSection from "@/sections/about-section";
-import BenefitsSection from "@/sections/benefits-section";
-import FreeTraining from "@/sections/free-training";
-import HeroSection from "@/sections/hero-section";
-import LocationSection from "@/sections/location-section";
-import MembershipSection from "@/sections/membership-section";
-import SuplementsSection from "@/sections/suplements-section";
+import AboutSection from "@/sections/aboutSection";
+import BenefitsSection from "@/sections/benefitsSection";
+import FreeTraining from "@/sections/freeTraining";
+import HeroSection from "@/sections/heroSection";
+import LocationSection from "@/sections/locationSection";
+import MembershipSection from "@/sections/membershipSection";
+import SupplementsSection from "@/sections/supplementsSection";
 
 export default function Page() {
   return (
@@ -24,7 +24,7 @@ export default function Page() {
 
       <div className="mb-10 w-full max-w-[1440px] mx-auto h-px bg-white/10" />
 
-      <SuplementsSection />
+      <SupplementsSection />
 
       <LocationSection />
     </main>

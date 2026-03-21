@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FlaskIcon, MapPinIcon, LightningIcon, ShieldCheckIcon, ArrowRightIcon } from "@phosphor-icons/react";
 import { useTranslations } from "next-intl";
 
-const SuplementsSection = () => {
+const SupplementsSection = () => {
   const t = useTranslations("Supplements");
 
   const supplements = [
@@ -100,4 +100,4 @@ const SuplementsSection = () => {
   );
 };
 
-export default SuplementsSection;
+export default SupplementsSection;

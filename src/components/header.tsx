@@ -6,22 +6,23 @@ import { LightningIcon, ListIcon, UserIcon, CaretDownIcon } from "@phosphor-icon
 import { useTranslations, useLocale } from "next-intl";
 import ReactCountryFlag from "react-country-flag";
 import { useState } from "react";
+import { Locale } from "@/i18n/types";
 
 const Header = () => {
   const t = useTranslations("Header");
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const router = useRouter();
   const pathname = usePathname();
   const [isLangOpen, setIsLangOpen] = useState(false);
 
   const Links = [
-    { txt: t("about"), href: "/#About" },
-    { txt: t("benefits"), href: "/#Benefits" },
-    { txt: t("membership"), href: "/#Membership" },
-    { txt: t("supplements"), href: "/#Supplements" },
+    { txt: t("about"), href: "/#About" as const },
+    { txt: t("benefits"), href: "/#Benefits" as const },
+    { txt: t("membership"), href: "/#Membership" as const },
+    { txt: t("supplements"), href: "/#Supplements" as const },
   ];
 
-  const handleLocaleChange = (newLocale: string) => {
+  const handleLocaleChange = (newLocale: Locale) => {
     router.replace(pathname, { locale: newLocale });
     setIsLangOpen(false);
   };
@@ -48,7 +49,7 @@ const Header = () => {
           {Links.map((link) => (
             <Link
               key={link.href}
-              href={link.href as any}
+              href={link.href}
               className="text-[11px] font-black tracking-[0.25em] text-white/40 hover:text-primary transition-all uppercase relative group"
             >
               {link.txt}
