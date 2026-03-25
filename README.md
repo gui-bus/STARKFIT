@@ -1,86 +1,103 @@
-# STARKFIT | Transforme seu estilo de vida! :weight_lifting:
-<div align="center">
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_01.png" alt="Desktop Homepage" width="700" />
-</div>
+# <p align="center">STARKFIT</p>
 
-##  STARKFIT :weight_lifting:
+<p align="center">
+  <strong>Elite Performance Club: Onde a Biologia Encontra a Tecnologia de Ponta.</strong>
+</p>
 
-<br>
+<p align="center">
+  <a href="https://starkfit.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-STARKFIT-9cd15a?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
+</p>
 
-***A [STARKFIT](https://starkfit.vercel.app/) é uma landing page desenvolvida com React, Typescript, Next.js, ShadCN/UI, HeroUI, Tailwind CSS e Vercel.*** Sua jornada para uma vida saudável começa na STARKFIT. Descubra treinos personalizados, equipamentos modernos e uma comunidade vibrante.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16.2.0-black?style=flat-square&logo=next.js" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-19.2.4-blue?style=flat-square&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-v4.2.2-38B2AC?style=flat-square&logo=tailwind-css" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/TypeScript-5.9.3-blue?style=flat-square&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/next--intl-4.8.3-green?style=flat-square" alt="next-intl" />
+  <img src="https://img.shields.io/badge/Framer_Motion-12.38.0-ff69b4?style=flat-square&logo=framer" alt="Framer Motion" />
+</p>
 
-## Como acessar a página :gear:
+---
 
-- [x] Para conhecer mais sobre a STARKFIT basta ***[clicar aqui](https://starkfit.vercel.app/)***
+## 📖 Panorama Geral
 
-## Tecnologias utilizadas :dart:
+A **STARKFIT** é uma landing page de alta performance para uma academia premium. O projeto foi desenvolvido para redefinir o conceito de fitness digital, adotando uma estética **Industrial & High-Tech** que prioriza a força bruta, a tecnologia de ponta e um design focado em resultados.
 
-<div>
-	<img alt="React" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/React.svg">
-	<img alt="Typescript" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Typescript.svg">
-	<img alt="NextJS" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/NextJS.svg">
-	<img alt="Tailwind" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/TailwindCSS.svg">
-	<img alt="ShadCNUI" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/ShadCNUI.svg">
-  <img alt="HeroUI" height="80" width="80" src="https://raw.githubusercontent.com/heroui-inc/heroui/main/apps/docs/public/favicon.ico">
-	<img alt="Vercel" height="80" width="80" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Vercel.svg">
-</div>
+### 🎯 Diferenciais Estratégicos
+- **Estética Elite & Performance:** Design agressivo e moderno, utilizando uma paleta de cores escura com acentos em Verde Lima (#9CD15A), transmitindo energia e exclusividade.
+- **Experiência Imersiva:** Animações fluidas e transições cinematográficas orquestradas pelo Framer Motion para guiar o usuário na jornada da evolução física.
+- **Internacionalização Robusta:** Sistema de tradução completo (PT/EN) integrado via cookies, garantindo URLs limpas e uma experiência global sem atritos.
 
-## Galeria :camera:
-#### Desktop
-<div align="center">	
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_01.png" alt="desktop" width="800" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_02.png" alt="desktop" width="800" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_03.png" alt="desktop" width="800" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_04.png" alt="desktop" width="800" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_05.png" alt="desktop" width="800" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_06.png" alt="desktop" width="800" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_07.png" alt="desktop" width="800" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/desktop_08.png" alt="desktop" width="800" />
-</div>
+---
 
-#### Mobile - Tema claro
-<div align="center" style="display: inline_block">
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_01.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_02.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_03.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_04.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_05.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_06.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_07.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_08.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_09.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_10.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_11.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_12.png" alt="mobile" width="200" />
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/github/mobile_13.png" alt="mobile" width="200" />
-</div>
+## ✨ Ecossistema de Funcionalidades
 
-## Contribuição :bulb:
+### 🎞️ Impacto Visual (Hero & Brand)
+- **Cinematic Hero:** Uma seção inicial monumental com efeitos de paralaxe e tipografia "extra-bold" que estabelece o tom de dominância da marca.
+- **Dynamic Backgrounds:** Uso estratégico de sobreposições de texto e imagens em alta definição para criar profundidade visual.
 
-Gostaria de contribuir para o projeto? ***Fico muito grato pelo interesse!***
+### 🏋️ Estrutura & Performance
+- **ADN Stark:** Showcase dos diferenciais tecnológicos e metodológicos da academia, focando em biometria avançada e infraestrutura 24h.
+- **Membership Protocols:** Sistema de planos escalonáveis (Foundation, Standard, Summit) apresentados em cards interativos com destaque para o plano de maior valor.
+- **Bio Fuel Selection:** Seção dedicada à suplementação de alta densidade, reforçando o ecossistema completo de saúde da marca.
 
-- Sinta-se à vontade para entrar em contato comigo através das minhas redes sociais para enviar seu feedback, sugestões ou comentários sobre o projeto.
+### 📍 Conectividade Global
+- **Strategic Bases:** Localizador de unidades com integração visual, permitindo que membros identifiquem onde a elite treina.
+- **Interactive Free Access:** Fluxo de conversão otimizado para resgate de acessos experimentais de 7 dias.
 
-## Redes sociais para contato! :speech_balloon:
+---
 
-<a href="https://www.instagram.com/guibus_dev/" target="_blank">
-	<img alt="Instagram" height="60" width="60"  src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Instagram.svg"> 
-</a>
-<a href="https://www.linkedin.com/in/gui-bus/" target="_blank">
-	<img alt="LinkedIn" height="60" width="60"  src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Linkedin.svg"> 
-</a>
-<a href="mailto:guibus.dev@gmail.com" target="_blank">
-	<img alt="Gmail" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Gmail.svg"> 
-</a>
+## 🛠️ Deep Dive Tecnológico
 
+### Arquitetura de Internacionalização
+O projeto utiliza o **next-intl** com uma estratégia avançada de detecção via middleware:
+- **Clean URLs:** O idioma é gerenciado via cookie `NEXT_LOCALE`, eliminando prefixos de rota e mantendo o SEO otimizado.
+- **App Router Integration:** Estrutura `[locale]` para pré-renderização eficiente e troca dinâmica de dicionários no servidor.
 
-## Precisa de uma pagina personalizada para o seu negócio? :rocket:
+### Performance e Estilização
+- **Tailwind CSS v4:** Aproveita as melhorias de performance da v4 para uma gestão de estilos ultra-eficiente através de variáveis CSS e engine JIT.
+- **Framer Motion Engine:** Orquestração complexa de animações de entrada, scroll progressivo e interações de hover que garantem 60fps constantes.
+- **Shadcn/UI & Radix:** Componentes de interface acessíveis e altamente customizados para manter a consistência visual do projeto.
 
-- [x] Se você gostou do projeto da ***STARKFIT*** e está interessado em ter uma página para o seu negócio, entre em contato! Estou disponível para desenvolver sites personalizados e adaptados às necessidades da sua empresa. <br> ***Vamos transformar sua visão em realidade!*** :star: 
+---
 
--  Entre em contato através das minhas redes sociais ou envie-me um e-mail para [guibus.dev@gmail.com](mailto:guibus.dev@gmail.com).
+## 🏗️ Estrutura Arquitetural
 
+```text
+├── messages/             # Dicionários de tradução (en.json, pt.json)
+├── src/
+│   ├── app/
+│   │   └── [locale]/     # Next.js App Router (Layouts e Páginas traduzidas)
+│   ├── components/
+│   │   ├── sections/     # Componentes de seção (Hero, Membership, Benefits...)
+│   │   └── ui/           # Elementos de interface (Shadcn/UI & Radix)
+│   ├── i18n/             # Configurações de request e mapeamento de idiomas
+│   ├── lib/              # Utilitários e configurações de animação
+│   └── proxy.ts          # Middleware inteligente de internacionalização
+└── next.config.mjs       # Configuração Next.js com suporte a i18n
+```
 
-<div align="center">
-  <img src="https://github.com/gui-bus/STARKFIT/blob/main/public/Logo.svg" alt="STARKFIT" width="400" />
-</div>
+---
+
+## 🧪 Engenharia de Qualidade
+
+A integridade do projeto é garantida por fluxos de validação contínuos:
+- **Total i18n Coverage:** Todas as strings são externalizadas, permitindo escalabilidade para novos idiomas sem alteração no código.
+- **Type Safety:** Uso rigoroso de TypeScript em todo o ecossistema, desde as rotas até as variantes de animação.
+- **Responsive Architecture:** Design que se adapta perfeitamente de grandes monitores (2K/4K) até dispositivos mobile compactos.
+
+Para rodar o projeto localmente:
+```bash
+pnpm install
+pnpm dev
+```
+
+Para validar o build:
+```bash
+pnpm build
+```
+
+---
+<p align="center">
+  Designed with intent by <a href="https://www.linkedin.com/in/gui-bus/">guibus.dev</a> &bull; 2026
+</p>
