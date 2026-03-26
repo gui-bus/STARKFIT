@@ -1,23 +1,18 @@
 # <p align="center">STARKFIT</p>
 
 <p align="center">
-  <strong>Elite Performance Club: Onde a Biologia Encontra a Tecnologia de Ponta.</strong>
+  <img alt="React" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/React.svg">
+  <img alt="NextJS" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/NextJS.svg">
+  <img alt="Typescript" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Typescript.svg">
+  <img alt="Tailwind" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/TailwindCSS.svg">
+  <img alt="Framer Motion" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Framer%20Motion.svg">
+  <img alt="Phosphor Icons" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Phosphor%20Icons.svg">
+  <img alt="Husky" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Husky.svg">
+  <img alt="Conventional Commits" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Conventional%20Commits.svg">
+  <img alt="Cursor" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Cursor.svg">
+  <img alt="Gemini" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Gemini.svg">
+  <img alt="Windsurf" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Windsurf.svg">
 </p>
-
-<p align="center">
-  <a href="https://starkfit.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-STARKFIT-9cd15a?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16.2.0-black?style=flat-square&logo=next.js" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-19.2.4-blue?style=flat-square&logo=react" alt="React" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-v4.2.2-38B2AC?style=flat-square&logo=tailwind-css" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/TypeScript-5.9.3-blue?style=flat-square&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/next--intl-4.8.3-green?style=flat-square" alt="next-intl" />
-  <img src="https://img.shields.io/badge/Framer_Motion-12.38.0-ff69b4?style=flat-square&logo=framer" alt="Framer Motion" />
-</p>
-
----
 
 ## 📖 Panorama Geral
 
@@ -56,46 +51,7 @@ O projeto utiliza o **next-intl** com uma estratégia avançada de detecção vi
 
 ### Performance e Estilização
 - **Tailwind CSS v4:** Aproveita as melhorias de performance da v4 para uma gestão de estilos ultra-eficiente através de variáveis CSS e engine JIT.
-- **Framer Motion Engine:** Orquestração complexa de animações de entrada, scroll progressivo e interações de hover que garantem 60fps constantes.
-- **Shadcn/UI & Radix:** Componentes de interface acessíveis e altamente customizados para manter a consistência visual do projeto.
-
----
-
-## 🏗️ Estrutura Arquitetural
-
-```text
-├── messages/             # Dicionários de tradução (en.json, pt.json)
-├── src/
-│   ├── app/
-│   │   └── [locale]/     # Next.js App Router (Layouts e Páginas traduzidas)
-│   ├── components/
-│   │   ├── sections/     # Componentes de seção (Hero, Membership, Benefits...)
-│   │   └── ui/           # Elementos de interface (Shadcn/UI & Radix)
-│   ├── i18n/             # Configurações de request e mapeamento de idiomas
-│   ├── lib/              # Utilitários e configurações de animação
-│   └── proxy.ts          # Middleware inteligente de internacionalização
-└── next.config.mjs       # Configuração Next.js com suporte a i18n
-```
-
----
-
-## 🧪 Engenharia de Qualidade
-
-A integridade do projeto é garantida por fluxos de validação contínuos:
-- **Total i18n Coverage:** Todas as strings são externalizadas, permitindo escalabilidade para novos idiomas sem alteração no código.
-- **Type Safety:** Uso rigoroso de TypeScript em todo o ecossistema, desde as rotas até as variantes de animação.
-- **Responsive Architecture:** Design que se adapta perfeitamente de grandes monitores (2K/4K) até dispositivos mobile compactos.
-
-Para rodar o projeto localmente:
-```bash
-pnpm install
-pnpm dev
-```
-
-Para validar o build:
-```bash
-pnpm build
-```
+- **Framer Motion Engine:** Orquestração complexa de animações de entrada, scroll progressivo e interações de hover.
 
 ---
 <p align="center">
