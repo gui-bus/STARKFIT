@@ -52,8 +52,3 @@ O projeto utiliza o **next-intl** com uma estratégia avançada de detecção vi
 ### Performance e Estilização
 - **Tailwind CSS v4:** Aproveita as melhorias de performance da v4 para uma gestão de estilos ultra-eficiente através de variáveis CSS e engine JIT.
 - **Framer Motion Engine:** Orquestração complexa de animações de entrada, scroll progressivo e interações de hover.
-
----
-<p align="center">
-  Designed with intent by <a href="https://www.linkedin.com/in/gui-bus/">guibus.dev</a> &bull; 2026
-</p>
