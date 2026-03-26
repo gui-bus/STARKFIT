@@ -14,6 +14,8 @@
   <img alt="Windsurf" height="60" width="60" src="https://github.com/gui-bus/TechIcons/blob/main/Dark/Windsurf.svg">
 </p>
 
+---
+
 ## 📖 Panorama Geral
 
 A **STARKFIT** é uma landing page de alta performance para uma academia premium. O projeto foi desenvolvido para redefinir o conceito de fitness digital, adotando uma estética **Industrial & High-Tech** que prioriza a força bruta, a tecnologia de ponta e um design focado em resultados.
